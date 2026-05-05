@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 💌</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="envelope" onclick="openLetter()">
+  <img src="assets/envelope.png" alt="Envelope">
+  <p>Tap to open</p>
+</div>
+
+<div id="flowers" class="hidden">
+  <img src="assets/flowers.png" id="flowerSpread">
+</div>
+
+<div id="bouquet" class="hidden">
+  <img src="assets/bouquet.png">
+</div>
+
+<div id="messageIcon" class="hidden" onclick="showMessage()">
+  💬
+</div>
+
+<div id="messageBox" class="hidden">
+  <div class="paper">
+    <p contenteditable="true">
+      Hi, I made this just for you... 💖  
+      (Edit this message anytime ✨)
+    </p>
+  </div>
+</div>
+
+<audio id="music">
+  <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>

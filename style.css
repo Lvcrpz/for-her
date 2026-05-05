@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background: #fffafc;
+  font-family: sans-serif;
+}
+
+#envelope img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#flowerSpread {
+  width: 80%;
+  animation: fadeIn 2s ease-in;
+}
+
+#bouquet img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#messageIcon {
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.paper {
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  background: #fff;
+  border: 1px solid #ccc;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
